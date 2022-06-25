@@ -3,6 +3,7 @@ import java.net.URI;import java.util.Scanner;import java.io.IOException;
 public class calculate_deposit
 {
 double Calculate_Complex_Percent_Function(double a, double y,int d ) {
+    int a;
        double pay = a * Math.pow((1 + y/ 12), 12 *d);
           return rnd(pay, 2);
   } double Calculate_Simple_Percent_Function(double doubleAmount,double double_year_rate, int deposit_period) {
