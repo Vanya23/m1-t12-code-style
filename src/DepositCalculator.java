@@ -6,14 +6,14 @@ public class DepositCalculator {
         return round(pay, 2);
     }
 
-      double calculateSimplePercent(double amount, double yearRate, int depositPeriod) {
-          return round(amount + amount * yearRate * depositPeriod, 2);
-      }
+    double calculateSimplePercent(double amount, double yearRate, int depositPeriod) {
+        return round(amount + amount * yearRate * depositPeriod, 2);
+    }
 
-      double round(double value, int places) {
-         double ScaLe = Math.pow(10, places);
-         return Math.round(value * ScaLe) / ScaLe;
-      }
+    double round(double value, int places) {
+        double ScaLe = Math.pow(10, places);
+        return Math.round(value * ScaLe) / ScaLe;
+    }
 
     void printMenu( ) {
         int period;
