@@ -38,6 +38,4 @@ public class DepositCalculator {
         new DepositCalculator().printMenu();
 
     }
-
-
 }
